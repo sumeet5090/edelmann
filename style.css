@@ -64,7 +64,7 @@ a:visited {
     max-width: 700px;
     margin: auto;
     padding: 20px;
-    background: #f9f9f9;
+    background: #dddddd;
     border: 1px solid #e1e1e1;
     border-radius: 10px;
 }
@@ -72,7 +72,7 @@ a:visited {
 /* Label and Field Styling */
 .widget_custom_html label {
     font-weight: 600;
-    color: #333;
+    color: #000;
     display: block;
     margin-bottom: 5px;
 }
@@ -318,7 +318,7 @@ a:visited {
     max-width: 700px;
     margin: auto;
     padding: 20px;
-    background: #f9f9f9;
+    background: #dddddd;
     border: 1px solid #e1e1e1;
     border-radius: 10px;
 }
@@ -531,8 +531,6 @@ a:visited {
     margin-top: 2em;
 }
 
-
-
 #mc_embed_signup input[type="text"],
 #mc_embed_signup input[type="email"],
 #mc_embed_signup select,
@@ -544,12 +542,10 @@ a:visited {
     width: 100% !important;
 }
 
-#mc_embed_signup div.mce_inline_error {
-    margin: 0 0 1em 0;
-    padding: 5px 10px;
-    background-color:#FFF;
-    font-weight: bold;
-    z-index: 1;
-    color:#b33232;
-  }
-  
+.single-portfolio .seocrawler-page-title-wrap {
+    background-image: url('https://edelmann.com/wp-content/uploads/Edelmann-homepagebanner3.jpg');
+}
+
+.single-portfolio h1.seocrawler-page-title {
+    color: #fff;
+}
